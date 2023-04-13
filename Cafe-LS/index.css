@@ -1,0 +1,526 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    position: relative;
+    padding: 10px 30px;
+    text-decoration: none;
+    float: right;
+    color: white;
+}
+.nav{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 5px 0px;
+    justify-content: end;
+
+}
+.nav a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: goldenrod;
+    margin: auto;
+    display: block;
+}
+.nav a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.img{
+    background-image: url(cls124.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-10%;
+    width:100%;
+    height:100%;
+    filter: blur(3.5px);
+}
+.logo{
+    background-image: url(clslogo.png);
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    transform: rotate(0deg);
+}
+.cap{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    right: 50;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Fantasy;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 4em;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    
+}
+h1{
+    position: absolute;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+    font-size: 2.5em;
+    top: 38%;
+    left: 39%;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    background-color: aliceblue;
+    width: 305px;
+    height: 55px;
+    border-radius: 40%;
+}
+.aboutus img{
+    position: absolute;
+    top: 95%;
+    left: 3%;
+    border-radius: 20%;
+    border: 15px solid black;
+}
+.ab1 a{
+    position: absolute;
+    top: 100%;
+    right: 22%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    font-size: 1.2em;
+    
+
+}
+.sp1 a{
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    font-size: 1.8em;
+    border: 6px solid white;
+    
+
+}
+.sp1 :hover{
+    background-color: rgb(71, 71, 71);
+}
+.abp1{
+    position: absolute;
+    top: 110%;
+    right: 7%;
+    color: black;
+    font-size: 1.3em;
+    line-height: 35px;
+
+}
+
+.abb2{
+    position: absolute;
+    top: 158%;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.abb2 img{
+    position: relative;
+    top: 10.5%;
+    left: 63%;
+    border-radius: 20%;
+    border: 10px solid white;
+
+}
+.p2{
+    position: absolute;
+    top: 175%;
+    left: 7%;
+    color: white;
+    font-size: 1.3em;
+    line-height: 35px;
+
+}
+.ls2{
+    position: absolute;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+    font-size: 1.5em;
+    top: 218%;
+    left: 34%;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: absolute;
+    top: 228%;
+    left: 33.3%;
+    width:450px;
+    height:360px;
+    margin: auto;
+    border: 15px solid black ;
+    border-radius: 20px;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .active {
+    background-color: #717171;
+  }
+  
+ 
+  .fade {
+    animation-name: fade;
+    animation-duration: 20s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 4} 
+    to {opacity: 1}
+  }
+  
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+  .m1{
+    position: absolute;
+    top: 235%;
+    left: 6%;
+    font-size: 5.5em;
+    font-family: Copperplate, Papyrus, fantasy;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  .m2{
+    position: absolute;
+    top: 235%;
+    left:72%;
+    font-size: 5.2em;
+    font-family: Copperplate, Papyrus, fantasy;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  .m3{
+    position: absolute;
+    top: 262%;
+    left:82%;
+    font-size: 1.5em;
+    font-family: Copperplate, Papyrus, fantasy;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .s11{
+    position: absolute;
+    top: 295%;
+    height: 380px;
+    width: 100%;
+    background-color: black;
+
+  }
+  .s22{
+    position: absolute;
+    top: 300%;
+    font-size: 3em;
+    left: 6%;
+    color: white;
+  }
+  .review1{
+    position: absolute;
+    background-color: white;
+    height: 220px;
+    width: 360px;
+    top: 315%;
+    left: 6%;
+    border-radius: 20px;
+  }
+  h2{
+    position: absolute;
+    color: goldenrod;
+    left: 35%;
+    font-weight: bolder;
+    font-size: 1.8em;
+
+    text-align: center;
+  }
+  .r2{
+    position: absolute;
+    top:25% ;
+    left: 3%;
+    font-size: 1.1em;
+  }
+  .review11{
+    position: absolute;
+    background-color: white;
+    height: 220px;
+    width: 360px;
+    top: 315%;
+    left: 37%;
+    border-radius: 20px;
+  }
+  h3{
+    position: absolute;
+    color: goldenrod;
+    left: 35%;
+    font-weight: bolder;
+    font-size: 1.8em;
+
+    text-align: center;
+  }
+  .r22{
+    position: absolute;
+    top:25% ;
+    left: 3%;
+    font-size: 1.1em;
+  }
+  .body {
+    position:absolute;
+    top:309%;
+      font-family: Arial;
+      margin: 0 auto; /* Center website */
+      max-width: 800px; /* Max width */
+      padding: 20px;
+      color: white;
+      right: 7%;
+    }
+    
+    .heading {
+      font-size: 25px;
+      margin-right: 25px;
+    }
+    
+    .fa {
+      font-size: 25px;
+    }
+    
+    .checked {
+      color: orange;
+    }
+    
+    /* Three column layout */
+    .side {
+      float: left;
+      width: 15%;
+      margin-top:10px;
+    }
+    
+    .middle {
+      margin-top:10px;
+      float: left;
+      width: 70%;
+    }
+    
+    /* Place text to the right */
+    .right {
+      text-align: right;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* The bar container */
+    .bar-container {
+      width: 100%;
+      background-color: #f1f1f1;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Individual bars */
+    .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+    .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+    .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+    .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+    .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+    
+    /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+    @media (max-width: 400px) {
+      .side, .middle {
+        width: 100%;
+      }
+      .right {
+        display: none;
+      }
+    }
+    .con1 img{
+      position: absolute;
+      top: 362%;
+      left: 6%;
+      width: 360px;
+      height: 270px;
+      border-radius: 20px;
+    }
+    .con2 img{
+      position: absolute;
+      top: 362%;
+      left: 37%;
+      width: 360px;
+      height: 270px;
+      border-radius: 20px;
+    }
+    .con3 img{
+      position: absolute;
+      top: 362%;
+      left: 68%;
+      width: 360px;
+      height: 270px;
+      border-radius: 20px;
+    }
+
+    .con1 p{
+      position: absolute;
+      top:403%;
+      left: 14%;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .con2 p{
+      position: absolute;
+      top:403%;
+      left: 45%;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .con3 p{
+      position: absolute;
+      top:403%;
+      left: 74%;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .copy1{
+      position: absolute;
+      top: 418%;
+      height: 520px;
+      width: 100%;
+      background-color: black;
+      border-radius: 50px 50px 0 0;
+    }
+
+    .fa {
+      position:absolute;
+      top:424%;
+      left: 2%;
+      size: 1.5em;
+      padding: 20px;
+      font-size: 60px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .num{
+        position: absolute;
+        top: 428%;
+        left:7.2%;
+        color: white;
+      }
+      
+      .num:hover {
+        opacity: 0.7;
+    }
+
+    .mail{
+      position: absolute;
+      top: 433%;
+      left: 7.2%;
+      color: white;
+    }
+    
+    .mail:hover {
+      opacity: 0.7;
+  }
+
+  .fa-thin{
+    position:relative;
+    top:440%;
+    right: 20%;
+    size: 1.5em;
+      padding: 20px;
+      font-size: 60px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-thin:hover {
+        opacity: 0.7;
+    }
+
+    .add{
+      position: absolute;
+      top: 438%;
+      left: 7.2%;
+      color: white;
+    }
+    
+    .add:hover {
+      opacity: 0.7;
+  }
+
+  .logoco{
+    position: absolute;
+    right: 0%;
+    top: 430%;
+    width: 300px;
+    height: 400px;
+  }
+  table, th, td {
+  border: 1px solid;
+  }
+  table{
+  position:absolute;
+  top:430%;
+  left:42%;
+  color:white;
+  font-size: 1.5em;
+  }
+
+  .line{
+    position: absolute;
+    top: 485%;
+    width: 100%;
+    height: 5px;
+    background-color: whitesmoke;
+  }
+
+  .copyrights {
+    position: absolute;
+    color: white;
+    top: 495%;
+    left: 35%;
+    font-size: 1.3em;
+
+  }
